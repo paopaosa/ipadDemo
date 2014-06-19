@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB51EA11952C260007B2C86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB51EA01952C260007B2C86 /* Foundation.framework */; };
+		CEB51EA31952C260007B2C86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB51EA21952C260007B2C86 /* CoreGraphics.framework */; };
+		CEB51EA51952C260007B2C86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB51EA41952C260007B2C86 /* UIKit.framework */; };
+		CEB51EAB1952C260007B2C86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB51EA91952C260007B2C86 /* InfoPlist.strings */; };
+		CEB51EAD1952C260007B2C86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB51EAC1952C260007B2C86 /* main.m */; };
+		CEB51EB11952C260007B2C86 /* JZPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB51EB01952C260007B2C86 /* JZPAppDelegate.m */; };
+		CEB51EB41952C260007B2C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB51EB21952C260007B2C86 /* Main.storyboard */; };
+		CEB51EB71952C260007B2C86 /* JZPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB51EB61952C260007B2C86 /* JZPViewController.m */; };
+		CEB51EB91952C260007B2C86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB51EB81952C260007B2C86 /* Images.xcassets */; };
+		CEB51EC01952C261007B2C86 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB51EBF1952C261007B2C86 /* XCTest.framework */; };
+		CEB51EC11952C261007B2C86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB51EA01952C260007B2C86 /* Foundation.framework */; };
+		CEB51EC21952C261007B2C86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB51EA41952C260007B2C86 /* UIKit.framework */; };
+		CEB51ECA1952C261007B2C86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB51EC81952C261007B2C86 /* InfoPlist.strings */; };
+		CEB51ECC1952C261007B2C86 /* ipadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB51ECB1952C261007B2C86 /* ipadDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB51EC31952C261007B2C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB51E951952C260007B2C86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB51E9C1952C260007B2C86;
+			remoteInfo = ipadDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEB51E9D1952C260007B2C86 /* ipadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB51EA01952C260007B2C86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEB51EA21952C260007B2C86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEB51EA41952C260007B2C86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEB51EA81952C260007B2C86 /* ipadDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ipadDemo-Info.plist"; sourceTree = "<group>"; };
+		CEB51EAA1952C260007B2C86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEB51EAC1952C260007B2C86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEB51EAE1952C260007B2C86 /* ipadDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ipadDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CEB51EAF1952C260007B2C86 /* JZPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZPAppDelegate.h; sourceTree = "<group>"; };
+		CEB51EB01952C260007B2C86 /* JZPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZPAppDelegate.m; sourceTree = "<group>"; };
+		CEB51EB31952C260007B2C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB51EB51952C260007B2C86 /* JZPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZPViewController.h; sourceTree = "<group>"; };
+		CEB51EB61952C260007B2C86 /* JZPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZPViewController.m; sourceTree = "<group>"; };
+		CEB51EB81952C260007B2C86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEB51EBE1952C261007B2C86 /* ipadDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ipadDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB51EBF1952C261007B2C86 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CEB51EC71952C261007B2C86 /* ipadDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ipadDemoTests-Info.plist"; sourceTree = "<group>"; };
+		CEB51EC91952C261007B2C86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEB51ECB1952C261007B2C86 /* ipadDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ipadDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB51E9A1952C260007B2C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB51EA31952C260007B2C86 /* CoreGraphics.framework in Frameworks */,
+				CEB51EA51952C260007B2C86 /* UIKit.framework in Frameworks */,
+				CEB51EA11952C260007B2C86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB51EBB1952C261007B2C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB51EC01952C261007B2C86 /* XCTest.framework in Frameworks */,
+				CEB51EC21952C261007B2C86 /* UIKit.framework in Frameworks */,
+				CEB51EC11952C261007B2C86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB51E941952C260007B2C86 = {
+			isa = PBXGroup;
+			children = (
+				CEB51EA61952C260007B2C86 /* ipadDemo */,
+				CEB51EC51952C261007B2C86 /* ipadDemoTests */,
+				CEB51E9F1952C260007B2C86 /* Frameworks */,
+				CEB51E9E1952C260007B2C86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB51E9E1952C260007B2C86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB51E9D1952C260007B2C86 /* ipadDemo.app */,
+				CEB51EBE1952C261007B2C86 /* ipadDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB51E9F1952C260007B2C86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEB51EA01952C260007B2C86 /* Foundation.framework */,
+				CEB51EA21952C260007B2C86 /* CoreGraphics.framework */,
+				CEB51EA41952C260007B2C86 /* UIKit.framework */,
+				CEB51EBF1952C261007B2C86 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEB51EA61952C260007B2C86 /* ipadDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CEB51EAF1952C260007B2C86 /* JZPAppDelegate.h */,
+				CEB51EB01952C260007B2C86 /* JZPAppDelegate.m */,
+				CEB51EB21952C260007B2C86 /* Main.storyboard */,
+				CEB51EB51952C260007B2C86 /* JZPViewController.h */,
+				CEB51EB61952C260007B2C86 /* JZPViewController.m */,
+				CEB51EB81952C260007B2C86 /* Images.xcassets */,
+				CEB51EA71952C260007B2C86 /* Supporting Files */,
+			);
+			path = ipadDemo;
+			sourceTree = "<group>";
+		};
+		CEB51EA71952C260007B2C86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB51EA81952C260007B2C86 /* ipadDemo-Info.plist */,
+				CEB51EA91952C260007B2C86 /* InfoPlist.strings */,
+				CEB51EAC1952C260007B2C86 /* main.m */,
+				CEB51EAE1952C260007B2C86 /* ipadDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEB51EC51952C261007B2C86 /* ipadDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB51ECB1952C261007B2C86 /* ipadDemoTests.m */,
+				CEB51EC61952C261007B2C86 /* Supporting Files */,
+			);
+			path = ipadDemoTests;
+			sourceTree = "<group>";
+		};
+		CEB51EC61952C261007B2C86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB51EC71952C261007B2C86 /* ipadDemoTests-Info.plist */,
+				CEB51EC81952C261007B2C86 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB51E9C1952C260007B2C86 /* ipadDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB51ECF1952C261007B2C86 /* Build configuration list for PBXNativeTarget "ipadDemo" */;
+			buildPhases = (
+				CEB51E991952C260007B2C86 /* Sources */,
+				CEB51E9A1952C260007B2C86 /* Frameworks */,
+				CEB51E9B1952C260007B2C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ipadDemo;
+			productName = ipadDemo;
+			productReference = CEB51E9D1952C260007B2C86 /* ipadDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB51EBD1952C261007B2C86 /* ipadDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB51ED21952C261007B2C86 /* Build configuration list for PBXNativeTarget "ipadDemoTests" */;
+			buildPhases = (
+				CEB51EBA1952C261007B2C86 /* Sources */,
+				CEB51EBB1952C261007B2C86 /* Frameworks */,
+				CEB51EBC1952C261007B2C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB51EC41952C261007B2C86 /* PBXTargetDependency */,
+			);
+			name = ipadDemoTests;
+			productName = ipadDemoTests;
+			productReference = CEB51EBE1952C261007B2C86 /* ipadDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB51E951952C260007B2C86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JZP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jz;
+				TargetAttributes = {
+					CEB51EBD1952C261007B2C86 = {
+						TestTargetID = CEB51E9C1952C260007B2C86;
+					};
+				};
+			};
+			buildConfigurationList = CEB51E981952C260007B2C86 /* Build configuration list for PBXProject "ipadDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB51E941952C260007B2C86;
+			productRefGroup = CEB51E9E1952C260007B2C86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB51E9C1952C260007B2C86 /* ipadDemo */,
+				CEB51EBD1952C261007B2C86 /* ipadDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB51E9B1952C260007B2C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB51EB91952C260007B2C86 /* Images.xcassets in Resources */,
+				CEB51EAB1952C260007B2C86 /* InfoPlist.strings in Resources */,
+				CEB51EB41952C260007B2C86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB51EBC1952C261007B2C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB51ECA1952C261007B2C86 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB51E991952C260007B2C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB51EAD1952C260007B2C86 /* main.m in Sources */,
+				CEB51EB71952C260007B2C86 /* JZPViewController.m in Sources */,
+				CEB51EB11952C260007B2C86 /* JZPAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB51EBA1952C261007B2C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB51ECC1952C261007B2C86 /* ipadDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB51EC41952C261007B2C86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB51E9C1952C260007B2C86 /* ipadDemo */;
+			targetProxy = CEB51EC31952C261007B2C86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEB51EA91952C260007B2C86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB51EAA1952C260007B2C86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEB51EB21952C260007B2C86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB51EB31952C260007B2C86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB51EC81952C261007B2C86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB51EC91952C261007B2C86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB51ECD1952C261007B2C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CEB51ECE1952C261007B2C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB51ED01952C261007B2C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ipadDemo/ipadDemo-Prefix.pch";
+				INFOPLIST_FILE = "ipadDemo/ipadDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEB51ED11952C261007B2C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ipadDemo/ipadDemo-Prefix.pch";
+				INFOPLIST_FILE = "ipadDemo/ipadDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEB51ED31952C261007B2C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ipadDemo.app/ipadDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ipadDemo/ipadDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ipadDemoTests/ipadDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CEB51ED41952C261007B2C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ipadDemo.app/ipadDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ipadDemo/ipadDemo-Prefix.pch";
+				INFOPLIST_FILE = "ipadDemoTests/ipadDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB51E981952C260007B2C86 /* Build configuration list for PBXProject "ipadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB51ECD1952C261007B2C86 /* Debug */,
+				CEB51ECE1952C261007B2C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB51ECF1952C261007B2C86 /* Build configuration list for PBXNativeTarget "ipadDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB51ED01952C261007B2C86 /* Debug */,
+				CEB51ED11952C261007B2C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEB51ED21952C261007B2C86 /* Build configuration list for PBXNativeTarget "ipadDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB51ED31952C261007B2C86 /* Debug */,
+				CEB51ED41952C261007B2C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB51E951952C260007B2C86 /* Project object */;
+}
