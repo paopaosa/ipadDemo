@@ -200,6 +200,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = jz;
 				TargetAttributes = {
+					CEB51E9C1952C260007B2C86 = {
+						DevelopmentTeam = 39Q42W55M3;
+					};
 					CEB51EBD1952C261007B2C86 = {
 						TestTargetID = CEB51E9C1952C260007B2C86;
 					};
@@ -379,13 +382,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ipadDemo/ipadDemo-Prefix.pch";
 				INFOPLIST_FILE = "ipadDemo/ipadDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4CCF95FF-3DAA-446F-86CA-B6EDEAD66E3C";
+				PROVISIONING_PROFILE = "8895CB30-3B4F-4A32-B8DF-079F8F5500D2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,13 +399,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Anzheng Fashion Group Co., Ltd.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ipadDemo/ipadDemo-Prefix.pch";
 				INFOPLIST_FILE = "ipadDemo/ipadDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4CCF95FF-3DAA-446F-86CA-B6EDEAD66E3C";
+				PROVISIONING_PROFILE = "8895CB30-3B4F-4A32-B8DF-079F8F5500D2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
